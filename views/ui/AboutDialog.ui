@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AboutDialog</class>
+ <widget class="QDialog" name="AboutDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>430</width>
+    <height>250</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>430</width>
+    <height>250</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>430</width>
+    <height>250</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Sobre</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../styles/icon.ico</normaloff>../styles/icon.ico</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <family>Calibri</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;Este é um programa desenvolvido como trabalho de conclusão de curso na Universidade Federal Fluminense, na área de Ciências da Computação. O objetivo do projeto foi criar uma interface para o software FarmacIA, utilizando o framework QT6. O trabalho foi realizado originalmente pelos orientandos Luiz Guilherme Madruga Nunes de Faria e Pedro Ascar Rangel da Fonseca, sob a supervisão do professor Altobelli de Brito Mantuan.&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;Altobelli de Brito Mantuan: &lt;a href=&quot;https://github.com/altobelli&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#20afde;&quot;&gt;https://github.com/altobelli&lt;br/&gt;&lt;/span&gt;&lt;/a&gt;Luiz Guilherme Madruga N. de Faria: &lt;a href=&quot;https://github.com/lgmadruga&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#20afde;&quot;&gt;https://github.com/lgmadruga&lt;/span&gt;&lt;/a&gt;&lt;br/&gt;Pedro Ascar Rangel da Fonseca: &lt;a href=&quot;https://github.com/Pedroascar&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#20afde;&quot;&gt;https://github.com/Pedroascar&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QDialogButtonBox" name="okBtn">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
