@@ -1,6 +1,6 @@
-# TCC - Interface usando QT6
+# TCC - Interface usando Qt6
 
-Trabalho de conclusão de curso da Universidade Federal Fluminense, no curso de Ciências da Computação. O objetivo deste projeto é criar uma interface para o software FarmacIA utilizando o framework QT6.
+Trabalho de conclusão de curso da Universidade Federal Fluminense, no curso de Ciências da Computação. O objetivo deste projeto é criar uma interface para o software FarmacIA utilizando o framework Qt6.
 
 ## Como Rodar
 
